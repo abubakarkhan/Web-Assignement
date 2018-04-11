@@ -1,0 +1,98 @@
+/* Make HTML and body content viewable, layout to fill window */
+html {
+    margin:auto;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid hsl(210,0%,40%);
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url("resources/checker.gif");
+    background-position: center; 
+}
+body {
+    padding: 30px;
+    margin:0px;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid hsl(210,0%,40%);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px blue;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+    background-image: url("resources/starburst.gif");
+    background-position: center; 
+}
+
+/* Give all semantic body elements uniform layout style */
+header,
+main,
+footer,
+aside,
+section,
+article
+{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}  
+
+/* Give each semantic body element a different color */
+header
+{
+    background-color: hsl(0,100%,97%);
+    border: 2px solid hsl(0,100%,60%);
+    width: 100%;
+}
+#headerimg {
+    display:block;
+    margin:0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+nav
+{
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    background-color: hsl(210,100%,97%);
+    border: 2px solid hsl(210,100%,60%);
+    display: inline-block;
+}
+nav a {
+    height: 100%;
+    text-align: center;
+}
+nav a:hover {
+    background-color: gold;
+}
+
+main
+{
+    background-color: hsl(120,100%,97%);
+    border: 2px solid hsl(120,100%,40%);
+
+}
+
+footer
+{
+    background-color: hsl(300,100%,97%);
+    border: 2px solid hsl(300,100%,80%);
+
+}
+aside
+{
+    background-color: hsl(180,100%,97%);
+    border: 2px solid hsl(180,100%,40%);
+
+}
+section
+{
+    background-color: hsl(30,100%,97%);
+    border: 2px solid hsl(30,100%,60%);
+
+}
+article
+{
+    background-color: hsl(270,100%,97%);
+    border: 2px solid hsl(270,100%,60%);
+
+}

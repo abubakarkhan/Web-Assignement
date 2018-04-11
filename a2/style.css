@@ -1,0 +1,128 @@
+html {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:auto;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid hsl(210,0%,40%);
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url("resources/checker.gif");
+    background-position: center;
+}
+body {
+    font-family:'Oregano', cursive;
+    padding:40px;
+    margin:0px;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid hsl(210,0%,40%);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 2px darkcyan;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+    background-image: url("resources/starburst.gif");
+    background-position: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Fontdiner Swanky', cursive;
+}
+/*Generic Alignment Classes*/
+.textCenter {
+    text-align: center;
+}
+/*header img*/
+header{
+    text-align: center;
+    display:block;
+    font-size: 40px;
+}
+header h1 {
+    margin: 5px;
+    padding: 5px;
+}
+/*Nav*/
+nav{
+    background-color: white;
+    font-family: 'Graduate', cursive;
+    width: 99%;
+    height: auto;
+    overflow:auto;
+    padding: 0;
+}
+nav a{
+    margin: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    background-color: white;
+    color: black;
+    height: auto;
+    
+    
+}
+nav a:link, nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover, nav a:active{
+    background-color: darkcyan;
+    color: white;
+}
+/*Product & Services Styling*/
+.articleStyle {
+    display:inline-block;
+    text-align:center;
+    width:15%;
+    min-width:200px;
+
+}
+.articleImg {
+    height: 80px;
+}
+#deliveryPointers{
+    text-align:left;
+    margin-top:30px;
+    font-size:14px;
+    color:gray;
+}
+/*Footer*/
+.footerBlock {
+    display:inline-block;
+    width:24%;
+}
+#social {
+    text-align: right;
+    font-size: 40px;
+}
+#social a:link,#social a:visited{
+    color: gray;
+}
+#social a:hover  {
+    color: maroon;
+}
+
+/*Back to Top button*/
+#btt {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    cursor: pointer;
+    padding:10px 15px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Graduate', cursive;
+    text-transform: uppercase;
+}
+#btt:hover{
+    background-color: black;
+    opacity: 1;
+    color: gold;
+}

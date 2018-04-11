@@ -1,0 +1,51 @@
+/*Shipping Term*/
+#shippingTerm{
+    text-align:left;
+    margin-top:30px;
+    font-size:14px;
+    color:gray;
+}
+/*Pump Articles*/
+.pumpArticle {
+    top:0;
+    width:30%;
+    min-width:250px;
+    min-height:400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pumpImg {
+    height:250px;
+}
+.pumpDescription {
+    float:left;
+    text-align:left;
+    vertical-align:bottom;
+}
+form {
+    padding:10px;
+    width:40%;
+    min-width:200px;
+    display: inline-block;
+    text-align:left;
+}
+#NANP {
+    display:none;
+    height: 17px;
+    vertical-align: bottom;
+    border: 1px solid lightgray;
+}
+#phone[pattern]:invalid {
+    border: 2px solid red;
+}
+/*Pumps Features*/
+#pumpFeatures {
+    padding: 20px;
+    vertical-align: top;
+    color:gray;
+    text-align:left;
+    width:40%;
+    display:inline-block;
+    height:100%;
+    min-width:250px;
+}

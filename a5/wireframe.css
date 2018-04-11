@@ -1,0 +1,63 @@
+/* Make HTML and body content viewable, layout to fill window */
+html,
+body
+{
+  padding:20px;
+  margin:0px;
+  background-color: rgba(0,0,0,0.1);
+  border: 2px solid hsl(210,0%,40%);
+  box-sizing: border-box;
+}
+
+/* Give all semantic body elements uniform layout style */
+header,
+nav,
+main,
+footer,
+aside,
+section,
+article
+{
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}  
+
+/* Give each semantic body element a different color */
+header
+{
+  background-color: hsl(0,100%,97%);
+  border: 2px solid hsl(0,100%,60%);
+}
+nav
+{
+  background-color: hsl(210,100%,97%);
+  border: 2px solid hsl(210,100%,60%);
+}
+
+main
+{
+  background-color: hsl(120,100%,97%);
+  border: 2px solid hsl(120,100%,40%);
+}
+
+footer
+{
+  background-color: hsl(300,100%,97%);
+  border: 2px solid hsl(300,100%,80%);
+}
+aside
+{
+  background-color: hsl(180,100%,97%);
+  border: 2px solid hsl(180,100%,40%);
+}
+section
+{
+  background-color: hsl(30,100%,97%);
+  border: 2px solid hsl(30,100%,60%);
+}
+article
+{
+  background-color: hsl(270,100%,97%);
+  border: 2px solid hsl(270,100%,60%);
+}
